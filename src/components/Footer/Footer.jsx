@@ -14,8 +14,8 @@ const Footer = () => {
       <aside className="flex flex-col-reverse items-center gap-2">
         <FiBookOpen size={65} />
         <NavLink to="/" className="btn btn-ghost text-xl font-extrabold gap-0">
-          <span className="text-orange-500">Boi</span>
-          <span>Poka</span>
+          <span className="text-orange-500">Book</span>
+          <span>Vibe</span>
         </NavLink>
       </aside>
 
