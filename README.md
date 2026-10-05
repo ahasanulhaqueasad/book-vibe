@@ -1,16 +1,63 @@
-# React + Vite
+# 📚 BoiPoka — Book Reading App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BoiPoka** is a book reading application where users can explore books, view book details, manage their reading lists, and track their reading progress through an interactive chart.
 
-Currently, two official plugins are available:
+## 🌐 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Visit BoiPoka](#)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 📖 **Explore Books:** Browse a collection of books with their details.
+* 🔍 **Book Details:** View book descriptions, authors, ratings, publishers, and other information.
+* 📚 **Read List:** Add books to your personal reading list.
+* ❤️ **Wishlist:** Save your favorite books for later.
+* 📊 **Reading Progress:** Visualize the total pages of books in your read list using an interactive bar chart.
+* 💾 **Local Storage:** Save your reading list and wishlist in the browser.
+* 📱 **Responsive Design:** Enjoy a user-friendly experience across different screen sizes.
+* ⚡ **React Router:** Navigate smoothly between different pages.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* React Router
+* Tailwind CSS
+* DaisyUI
+* Recharts
+* React Icons
+* JavaScript
+* Local Storage
+* HTML5
+
+## 📂 Project Structure
+
+```text
+boipoka/
+├── public/
+│   └── data/
+│       └── booksData.json
+├── src/
+│   ├── components/
+│   │   ├── Books/
+│   │   ├── Home/
+│   │   ├── ListedBooks/
+│   │   ├── PagesToRead/
+│   │   ├── Root/
+│   │   └── ErrorPage/
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+└── README.md
+```
+
+## 👨‍💻 Author
+
+**Md Ahasanul Haque Ashad**
+
+* GitHub: [@ahasanulhaqueasad](https://github.com/ahasanulhaqueasad)
+
+---
+
+⭐ If you like this project, feel free to give it a star on GitHub!
+
+**Happy Reading with BoiPoka! 📚**
